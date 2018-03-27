@@ -5,10 +5,16 @@
 Позволяет сыграть в [шахматы](https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B) на 2 человек. Реализации времени в игре не предусмотрено.
 
 # Как собирать?
-Проект собирается с помощью maven, команды mvn compile. В Intelij IDEA можно создать maven конфиг и передать туда параметр compile
+Проект собирается с помощью maven, команды:
+```sh
+$ mvn package
+```
+В Intelij IDEA можно создать maven конфиг и передать туда параметр package.
 
 # Как запускать?
-Запускать класс Main.java
+```sh
+$ java -jar target\chessGame-1.0-SNAPSHOT.jar
+```
 
 # Описание проекта
 Состоит из следующих pachages:
